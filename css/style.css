@@ -1,0 +1,32 @@
+.container{
+    width: 70em;
+    margin: auto;
+}
+
+.logo{
+    padding: 0 0 0 20%;
+}
+
+.barra{
+    background-color: rgb(202, 42, 29);
+    padding: 1.25em;
+}
+
+.navegador a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1.35em;
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navegador a:hover{
+    background-color: rgb(78, 173, 248);
+}
+
+@media(min-width:760px){
+    .navegador a{
+        display: inline;
+    }
+}
